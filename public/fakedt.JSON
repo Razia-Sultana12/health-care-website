@@ -1,0 +1,105 @@
+[
+    {
+        "id":"1",
+        "name":"Dr Nike",
+        "specialist":"Opthalmology/Eye",
+        "qualification":"MBBS(DMC) DO(DU) FCPS(EYE)",
+        "image":"https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
+        "rating":"4.9",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+
+    },
+    {
+        "id":"2",
+        "name":"Dr.A.K Azad",
+        "qualification":" MBBS FCPS",
+        "specialist":"Dental",
+        "image":"https://thumbs.dreamstime.com/b/serious-confident-experienced-handsome-young-doctor-man-isolated-white-background-male-medical-uniform-stethoscope-holding-138576942.jpg",
+        "rating":"4.0",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"3",
+        "name":"Dr Nafisa Alam",
+        "qualification":"MBBS MD(EM) FACE(USA) FRSM(UK)",
+        "specialist":"Diabetes & Hormone",
+        "image":"https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "rating":"4.7",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"4",
+        "name":"Dr.Mashiur Rahman",
+        "qualification":" MD FACP(USA) MBBS",
+        "specialist":"ENT Specalist,Head & Neck Surgeon",
+        "image":"https://static4.depositphotos.com/1006214/360/i/600/depositphotos_3600614-stock-photo-doctor-portrait.jpg",
+        "rating":"3.5",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"5",
+        "name":"Dr.Nazmun Huda",
+        "qualification":"MBBS MPH(Dhaka) MS(obs & Gynae)",
+        "specialist":"Gynaecology & Obstaetrics",
+        "image":"https://surecellbd.com/wp-content/uploads/2015/11/Dr-mohi-2020.jpg",
+        "rating":"4.9",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"6",
+        "name":"Dr. Mohammad Jahangir Talukder",
+        "specialist":"Internal Medicine",
+        "qualification": "MBBS(Ctg), MRCP(UK), MRCP (Edin)",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmYYo0iBuBhDMoC4F3H-2lHIV-jsGpYUViPA&usqp=CAU",
+        "rating":"4.5",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+       
+    },
+    {
+        "id":"7",
+        "name":"Dr.Abu Zafar",
+        "qualification":"MBBS MS(Ortho),Fellow in Arthroscopy & Replacement Surgery(USA)",
+        "specialist":"Orthopedics & Arthroscopy,Arthroplasty & Trauma Surgeon",
+        "image":"https://previews.123rf.com/images/edhar/edhar1112/edhar111200367/11480871-senior-handsome-man-doctor.jpg",
+        "rating":"4.3",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"8",
+        "name":"Dr.Towhidul Islam ",
+        "qualification":"MSC( Psychology) MS( Clinical Psychology) PGT( Psychotherapy)",
+        "specialist":"Depression, dementia, schizophrenia, anxiety disorders",
+        "image":"https://image.freepik.com/free-photo/confident-senior-doctor-with-clipboard_23-2147896173.jpg",
+        "rating":"4.9",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"9",
+        "name":"Dr Md Yakub Ali",
+        "qualification":"MBBS FCPS(Radiotherapy) FRHS(London) IAEA Fellowship London",
+        "specialist":"Cancer/Oncology",
+        "image":"https://us.123rf.com/450wm/mklrnt/mklrnt1909/mklrnt190901161/129635937-portrait-of-happy-young-handsome-man-doctor-smiling-with-arms-crossed.jpg?ver=6",
+        "rating":"4.1",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"10",
+        "name":"Dr.Catherine Collings",
+        "qualification":"MD FCPS(heart)",
+        "specialist":"Cardiovascular diseas",
+        "image":"https://www.independent.ie/irish-news/education/671f1/40328133.ece/AUTOCROP/w620/A%20young%20caring%20doctor",
+        "rating":"4.7",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    },
+    {
+        "id":"11",
+        "name":"Dr.Aminur Rahman",
+        "qualification":" MD FACP(USA) MBBS",
+        "specialist":"Neurology Specalist",
+        "image":"https://media.istockphoto.com/photos/happy-healthcare-practitioner-picture-id138205019?k=20&m=138205019&s=612x612&w=0&h=KpsSMVsplkOqTnAJmOye4y6DcciVYIBe5dYDgYXLVW4=",
+        "rating":"4.9",
+        "time":"(8.00-12.00)am,(3.00-10.00)pm"
+    }
+    
+
+]
