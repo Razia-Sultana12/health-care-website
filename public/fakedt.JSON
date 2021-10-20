@@ -23,7 +23,7 @@
         "name":"Dr Nafisa Alam",
         "qualification":"MBBS MD(EM) FACE(USA) FRSM(UK)",
         "specialist":"Diabetes & Hormone",
-        "image":"https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "image":"https://s3.eu-central-1.amazonaws.com/images.hipdir/879970/bb4946f4bd3c2d8cf8bbdc158baa9259c06340ab19e65f7cee183190386332ee.jpeg?fbclid=IwAR2WbXF_0p0OWp556RUbhWcpc2TAkIjp2vRzyTZgw-W8DZXmdAnaoGrQIks",
         "rating":"4.7",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -32,16 +32,16 @@
         "name":"Dr.Mashiur Rahman",
         "qualification":" MD FACP(USA) MBBS",
         "specialist":"ENT Specalist,Head & Neck Surgeon",
-        "image":"https://static4.depositphotos.com/1006214/360/i/600/depositphotos_3600614-stock-photo-doctor-portrait.jpg",
+        "image":"https://www.thesun.co.uk/wp-content/uploads/2017/04/gettyimages-602222659.jpg?fbclid=IwAR0ufz1K3AeVa4RtVor3K5xpo7Y2HnM2WbJ_lyLqPCwIjUbWl7SDceQzU7c",
         "rating":"3.5",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
     {
         "id":"5",
-        "name":"Dr.Nazmun Huda",
+        "name":"Dr.Suhana Mukharjee",
         "qualification":"MBBS MPH(Dhaka) MS(obs & Gynae)",
         "specialist":"Gynaecology & Obstaetrics",
-        "image":"https://surecellbd.com/wp-content/uploads/2015/11/Dr-mohi-2020.jpg",
+        "image":"https://thermaray.com/wp-content/uploads/2016/07/hospital-4.jpg?fbclid=IwAR2ukQQndqsMKuqcKqSM7LMd_cB-yw6YkQgTBShFUhapU_wbdH9LVR2_XsU",
         "rating":"4.9",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -50,7 +50,7 @@
         "name":"Dr. Mohammad Jahangir Talukder",
         "specialist":"Internal Medicine",
         "qualification": "MBBS(Ctg), MRCP(UK), MRCP (Edin)",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmYYo0iBuBhDMoC4F3H-2lHIV-jsGpYUViPA&usqp=CAU",
+        "image":"https://estheticista.com/wp-content/uploads/2020/09/slider-3.jpg?fbclid=IwAR1379CSDk-92PQiO9YknFCwEHZD7fKqNgO2PWDh-jSYX8KRAbi6cJTVFB8",
         "rating":"4.5",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
        
@@ -60,7 +60,7 @@
         "name":"Dr.Abu Zafar",
         "qualification":"MBBS MS(Ortho),Fellow in Arthroscopy & Replacement Surgery(USA)",
         "specialist":"Orthopedics & Arthroscopy,Arthroplasty & Trauma Surgeon",
-        "image":"https://previews.123rf.com/images/edhar/edhar1112/edhar111200367/11480871-senior-handsome-man-doctor.jpg",
+        "image":"https://vardsupport.se/wp-content/uploads/2015/06/shutterstock_44805874.jpg?fbclid=IwAR0C06FPMTlGbkqTmzmdY4tcfipsGV1I8_n91LDhhH0DX-Sy20dD9WyxZ4c",
         "rating":"4.3",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -69,7 +69,7 @@
         "name":"Dr.Towhidul Islam ",
         "qualification":"MSC( Psychology) MS( Clinical Psychology) PGT( Psychotherapy)",
         "specialist":"Depression, dementia, schizophrenia, anxiety disorders",
-        "image":"https://image.freepik.com/free-photo/confident-senior-doctor-with-clipboard_23-2147896173.jpg",
+        "image":"https://aagmiami.com/wp-content/uploads/2015/06/shutterstock_141631912.jpg?fbclid=IwAR0s5USCcCkKDf8flcVgwNFegCYnf9p_JY-3c032ffhQoTxcLhGdanuxMuc",
         "rating":"4.9",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -78,7 +78,7 @@
         "name":"Dr Md Yakub Ali",
         "qualification":"MBBS FCPS(Radiotherapy) FRHS(London) IAEA Fellowship London",
         "specialist":"Cancer/Oncology",
-        "image":"https://us.123rf.com/450wm/mklrnt/mklrnt1909/mklrnt190901161/129635937-portrait-of-happy-young-handsome-man-doctor-smiling-with-arms-crossed.jpg?ver=6",
+        "image":"https://www.procureajuda.com.br/img/paginas/blog/1597667560.jpg?fbclid=IwAR1W0cvVh_A9mW0Xs0RVkKFUfvea2DMLNU8pA1hdH5mrxp0oCxQ-0hWEFR0",
         "rating":"4.1",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -87,7 +87,7 @@
         "name":"Dr.Catherine Collings",
         "qualification":"MD FCPS(heart)",
         "specialist":"Cardiovascular diseas",
-        "image":"https://www.independent.ie/irish-news/education/671f1/40328133.ece/AUTOCROP/w620/A%20young%20caring%20doctor",
+        "image":"https://wallpapercave.com/wp/wp2655100.jpg?fbclid=IwAR0O3o8lQkphXYB3I1lm-LZQa8AjkTsuA3kdFGGFr-XaEdoz7Y-cc9oiwuA",
         "rating":"4.7",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     },
@@ -96,7 +96,7 @@
         "name":"Dr.Aminur Rahman",
         "qualification":" MD FACP(USA) MBBS",
         "specialist":"Neurology Specalist",
-        "image":"https://media.istockphoto.com/photos/happy-healthcare-practitioner-picture-id138205019?k=20&m=138205019&s=612x612&w=0&h=KpsSMVsplkOqTnAJmOye4y6DcciVYIBe5dYDgYXLVW4=",
+        "image":"https://www.visakhadefenceacademy.com/images/ads/pdJIg3xPs5.jpg?fbclid=IwAR0ufz1K3AeVa4RtVor3K5xpo7Y2HnM2WbJ_lyLqPCwIjUbWl7SDceQzU7c",
         "rating":"4.9",
         "time":"(8.00-12.00)am,(3.00-10.00)pm"
     }

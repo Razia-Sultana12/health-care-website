@@ -2,3 +2,9 @@
  justify-content: center;
  align-items: center;   
 }
+.card-img-top:hover{
+    transform: scale(1.10,1.10);
+}
+.card-bg:hover{
+    background-color:darkslategray;
+}

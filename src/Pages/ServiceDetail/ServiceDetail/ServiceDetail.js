@@ -1,27 +1,43 @@
-import React, { useState,useEffect } from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { useHistory } from 'react-router';
+
 
 
 
 const ServiceDetail = () => {
-    let {serviceId} = useParams();
-    
-    const [serviceDetail,setServiceDetail]=useState([])
+    const {serviceId} = useParams();
+    const [services,setService]=useState({});
     useEffect(()=>{
-        fetch('./fakedata.json')
-        .then(res=>res.json())
-        .then(data=>console.log(data.service));
+        fetch("/fakedata.JSON")
+        .then((res)=>res.json())
+        .then((data)=>setService(data));
     },[]);
-    // useEffect(()=>{
-    //     const foundService=serviceDetail.find( service=>service.id===serviceId )
-    // },[serviceDetail,serviceId]);
+    // let service;
+    // if(services.length){
+    //     service=services?.find(service=service.id===serviceId)
+    // }
+    // const history=useHistory();
+    // const onHandleBack=()=>{
+    //     history.push('/Home');
+    // };
    
     return (
         <div>
-            <h1>Servics:{serviceId}</h1>
             
-           
-            
+            <h1>{serviceId}</h1>
+        { 
+            // <div className="card h-100 text-center">
+            // <img src={image} className="card-img-top" height="250" width="250" alt="..."/>
+            // <div className="card-body">
+            //   <h2 className="card-title">{title}</h2>
+            //   <p className="text-center">{description}</p>
+            //   </div>
+            //   </div>
+        
+            }
+      
         </div>
     );
 };

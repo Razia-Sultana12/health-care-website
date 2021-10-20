@@ -1,0 +1,10 @@
+.newsletter{
+    background-color:white;
+    
+}
+.extra{
+    background-color:lavender;
+    padding: 30px;
+}
+.nBtn{background-image: linear-gradient(slateblue,rebeccapurple);
+color: white;}

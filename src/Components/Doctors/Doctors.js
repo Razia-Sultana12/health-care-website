@@ -12,7 +12,7 @@ const Doctors = () => {
     return (
         <div>
            <div className="services mx-3">
-           <h2 className="text-center mt-5 title">Our Doctors</h2>
+           <h1 className="text-center mt-5 title text-success">Our Doctors</h1>
            <br />
            <br />
             <div className="row row-cols-1 row-cols-md-3 g-3">

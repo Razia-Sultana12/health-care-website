@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Service.css'
 
 
 const Service = props => {
@@ -9,7 +10,7 @@ const Service = props => {
 <div className="col">
     <div className="card h-100 text-center">
       <img src={image} className="card-img-top" height="250" width="250" alt="..."/>
-      <div className="card-body">
+      <div className="card-body card-bg">
         <h2 className="card-title">{title}</h2>
         <p className="text-center">{description.slice(0,200)}</p>
       <Link to={`/serviceDetail/${id}`}>

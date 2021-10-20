@@ -1,15 +1,19 @@
 import React from 'react';
 import About from '../About/About';
+import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
 import Doctors from '../Doctors/Doctors';
+import Header from '../Header/Header';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home</h1>
-            {/* <About></About>
+            <Banner></Banner>
+             <About></About>
             <Services></Services>
-            <Doctors></Doctors> */}
+            <Doctors></Doctors>
+            <Contact></Contact> 
             
         </div>
     );
