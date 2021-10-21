@@ -1,12 +1,13 @@
 import React from 'react';
 import image from '../../images/smartworks-coworking-E7Tzh2TTS6c-unsplash.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClinicMedical, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faClinicMedical, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
   const phone = <FontAwesomeIcon icon={faPhoneAlt} />
   const location = <FontAwesomeIcon icon={faMapMarkerAlt} />
   const medical = <FontAwesomeIcon icon={faClinicMedical} />
+  const mail = <FontAwesomeIcon icon={faEnvelope} />
 
 
     return (
@@ -16,8 +17,8 @@ const About = () => {
             <br />
             <h3>Freaquently Asked Questions</h3>
             <br />
-            <div className="d-flex justify-content-between">
-              <div>
+            <div className="row g-3">
+              <div className="col-md-5 col-12">
             <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -68,19 +69,21 @@ const About = () => {
     </div>
   </div>
 </div>
-<img className="ms-3" src={image} alt="" srcset="" />
+<div className="col-md-7 col-12">
+<img className="img-fluid" src={image} alt="" srcset="" />
+</div>
 </div>
 <br />
-    <div className="row text-start">
-    <div className="col-6 col-md-4">
+    <div className="mt-5 row text-center">
+    <div className="col-12 col-md-4">
     <h5>Who We Are?</h5>
     <p className="">Francis S. Collins, M.D., Ph.D., was officially sworn in on August 17, 2009, as the 16th director of the H&C.Dr. Collins is a physician-geneticist noted for his landmark discoveries of disease genes and his leadership of the international Human Genome Project, He served as director of the National Human Genome Research Institute at NIH from 1993-2008.</p>
   </div>
-  <div className="col-6 col-md-4">
+  <div className="col-12 col-md-4">
     <h5>What We Do?</h5>
    <p className="">How H&C works to prevent disease and improve health.Our team members spend the extra time to truly listen to each patient and to customize a care plan to meet the individual needs. Rather than treat symptoms, or address one problem at a time, we work with the individual to help them reach their ultimate vitality and health goals through a caring integrative Functional Medicine approach.</p>
    </div>
-    <div className="col-6 col-md-4">
+    <div className="col-12 col-md-4">
         <h5>Jobs At H&C</h5><p>Search for jobs, including scientific, administrative, executive careers.You do not need knowledge and/or experience in the medical or science health fields to work at H&C! An administrative career can include:
 
 supporting facilities and maintenance
@@ -90,15 +93,14 @@ developing websites
 implementing cyber security systems
 ensuring campus and staff are safe</p>
     </div>
-    </div>
-    <div className="row">
-    <div className="col-6 col-md-4"><h5>Visitor Information</h5>
+    <div className="col-12 col-md-4"><h5>Visitor Information</h5>
     <p>The H&C headquarters, known as the “NIH campus” to the local community, are located in Bethesda, Maryland. Administrative and program operations facilities are also located in off-campus buildings in the surrounding area. H&C scientists conduct their research in laboratories located on the main campus, and in several field units across the country and abroad.</p></div>
-    <div className="col-6 col-md-4"><h5>Success Stories</h5><p>At Heal n Cure, we have helped thousands of practice members to reach their wellness goals and to truly address root causes of symptoms through Integrative care. Hearing the positive and life changing success stories of our patients brings us the greatest joy as we know we have assisted them in a life changing way that will help them for many years to come. Listen to some of our practice member stories:<a href="#">visit here</a></p></div>
-    <div className="col-6 col-md-4"><h5>Contact Us</h5>
+    <div className="col-12 col-md-4"><h5>Success Stories</h5><p>At Heal n Cure, we have helped thousands of practice members to reach their wellness goals and to truly address root causes of symptoms through Integrative care. Hearing the positive and life changing success stories of our patients brings us the greatest joy as we know we have assisted them in a life changing way that will help them for many years to come. Listen to some of our practice member stories:<a href="#">visit here</a></p></div>
+    <div className="col-12 col-md-4"><h5>Contact Us</h5>
     <p><h6>Head Office:</h6>
                <p>{location} Momtaz Plaza (4th Floor) House#7, Road#4, Dhanmondi, Dhaka-1205</p>
-               <p>{phone} +880 1624666000,+880 1624888444,+880 1966177177</p></p></div>
+               <p>{phone} +880 1624666000,+880 1624888444,+880 1966177177</p>
+               <p>{mail} Email Address:<a href="#">h&chospital@gmail.com</a></p></p></div>
   </div>
   </div>
         

@@ -7,4 +7,5 @@
 }
 .card-bg:hover{
     background-color:darkslategray;
+    color: white;
 }

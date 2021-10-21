@@ -1,43 +1,41 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { useHistory } from 'react-router';
-
-
-
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router';
 
 const ServiceDetail = () => {
-    const {serviceId} = useParams();
-    const [services,setService]=useState({});
+    const {serviceId}=useParams();
+    const [serviceDetail,setServiceDetail]=useState([]);
+
     useEffect(()=>{
-        fetch("/fakedata.JSON")
-        .then((res)=>res.json())
-        .then((data)=>setService(data));
-    },[]);
-    // let service;
-    // if(services.length){
-    //     service=services?.find(service=service.id===serviceId)
-    // }
-    // const history=useHistory();
-    // const onHandleBack=()=>{
-    //     history.push('/Home');
-    // };
-   
-    return (
-        <div>
-            
-            <h1>{serviceId}</h1>
-        { 
-            // <div className="card h-100 text-center">
-            // <img src={image} className="card-img-top" height="250" width="250" alt="..."/>
-            // <div className="card-body">
-            //   <h2 className="card-title">{title}</h2>
-            //   <p className="text-center">{description}</p>
-            //   </div>
-            //   </div>
+        fetch('/fakedata.JSON')
+        .then(res=>res.json())
+        .then(data=>setServiceDetail(data));
         
-            }
-      
+    },[])
+    
+    if(!serviceDetail){
+        <div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+    }
+    console.log(serviceDetail);
+    const foundService=serviceDetail.find(data=>data.id==serviceId);
+    console.log(foundService);
+    let title,description,image;
+    if(foundService){
+        ({title,description,image}=foundService);
+        console.log(foundService);
+    }
+        return (
+        <div>
+        <div class="card mb-3">
+  <img src={image} class="card-img-top w-50  h-50 mx-auto" alt="..."/>
+  <div class="card-body text-center">
+    <h2 class="card-title text-success">{title}</h2>
+    <p class="card-text">{description}</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+        
         </div>
     );
 };

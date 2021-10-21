@@ -1,10 +1,10 @@
 import initializeAuthentication from "../../Firebase/firebase.init";
-import { getAuth, signInWithPopup,GoogleAuthProvider, createUserWithEmailAndPassword,signInWithEmailAndPassword ,sendEmailVerification, sendPasswordResetEmail,updateProfile,signOut} from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword ,sendEmailVerification, sendPasswordResetEmail,updateProfile} from "firebase/auth";
 import { useState } from 'react';
 import useAuth from "../hooks/useAuth";
 
 initializeAuthentication();
-const googleProvider = new GoogleAuthProvider();
+
 
 const Login = ()=> {
   const [name,setName] =useState('');
@@ -12,21 +12,11 @@ const Login = ()=> {
   const [password,setPassword]=useState('');
   const [error,setError]=useState('');
   const [isLogin,setIsLogin]=useState(false);
-  const [user,setUser] = useState({})
+  const [user,setUser] = useState({});
   
   const auth = getAuth();
-  const {logOut}=useAuth();
-  const handleGoogleSignIn = () =>{
-  signInWithPopup(auth, googleProvider)
-  .then(result => {
-    const {displayName,email,photoURL} = result.user;
-    const loggedInUser = {
-      name: displayName,
-      email: email,
-      photo: photoURL }
-      setUser(loggedInUser);
-  })
-}
+  const {logOut,signInUsingGoogle}=useAuth();
+
 const toggleLogin=e=>{
   setIsLogin(e.target.checked);
 }
@@ -43,7 +33,7 @@ const handlePasswordChange=e=>{
 const handleRegistration=e=>{
   e.preventDefault();
   console.log(email,password);
-  if(!/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/.test(password)){
+  if(!/^(?=.*[0-9])||(?=.*[!@#$%^&*])||[a-zA-Z0-9!@#$%^&*]{6,16}$/.test(password)){
     setError('Your password is invalid,Please try again!');
     return;
   }
@@ -89,12 +79,7 @@ const handleResetPassword=() =>{
   sendPasswordResetEmail(auth,email)
   .then(result=>{ })
 }
-// const handleSignOut =()=>{
-//   signOut(auth)
-//   .then(()=>{
-//     setUser({})
-//   })
-// }
+
 
   return (
     <div>
@@ -118,12 +103,12 @@ const handleResetPassword=() =>{
     <input type="checkbox" onChange={toggleLogin} className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" htmlFor="exampleCheck1">Already Registered?</label>
   </div>
-  <button type="submit" className="btn btn-primary mx-5">{isLogin? 'Login': 'Register'}</button>
-  <button type="button" onClick={handleResetPassword} class="btn btn-secondary btn-sm">Reset Password</button>
+  <button type="submit" className="btn btn-primary ms-5 px-3">{isLogin? 'Login': 'Register'}</button>
+  <button type="button" onClick={handleResetPassword} class="btn btn-secondary ms-3 ">Reset Password</button>
 
  </form>
       {!user.email?
-      <button onClick={handleGoogleSignIn} className="mx-5 mt-3">Google Sign In</button>:
+      <button onClick={signInUsingGoogle} className="mx-5 mt-3 btn btn-success text-light">Google Sign In</button>:
       <button onClick={logOut} type="button" class="btn btn-light">LogOut</button>
     
        

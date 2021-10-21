@@ -3,6 +3,12 @@
     color: white;
 
 }
+.navHover:hover{
+background-color: white;
+padding: 10px 15px;
+border-radius: 5px;
+color: black;
+}
 
 /* .header{
     position: fixed;

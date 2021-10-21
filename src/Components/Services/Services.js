@@ -7,7 +7,8 @@ const Services = () => {
         fetch('./fakedata.JSON')
         .then(res=>res.json())
         .then(data=>setServices(data));
-    },[])
+    },[]);
+    
     return (
         <div>
            <div className="services mx-3">
@@ -23,6 +24,7 @@ const Services = () => {
             
         </div>
     );
+    
 };
 
 export default Services;
